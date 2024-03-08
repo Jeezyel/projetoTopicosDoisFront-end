@@ -1,0 +1,23 @@
+
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.button{
+    text-align: center;
+}
+.login-end-password{
+    text-align: center;
+}
+.form{
+    margin-top: 10%;
+}
+
+.cancel {
+    margin-right: 5%;
+}

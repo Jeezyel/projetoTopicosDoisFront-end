@@ -1,0 +1,39 @@
+
+
+
+<div class="form">
+        
+    <form #meuformulario="ngForm" (ngSubmit)="formulario()">
+        <div class="login-end-password">
+            <mat-form-field class="example-form-field">
+                <mat-label for="login">Login</mat-label>
+                <input matInput type="text" id="login" name="login">
+                
+                <button matSuffix mat-icon-button aria-label="Clear" >
+                    <mat-icon>close</mat-icon>
+                </button>
+                
+            </mat-form-field>
+    
+            <br>
+    
+            <mat-form-field class="example-form-field">
+                <mat-label for="password">password</mat-label>
+                <input matInput type="password" id="password" name="password">
+                
+                <button matSuffix mat-icon-button aria-label="Clear" >
+                    <mat-icon>close</mat-icon>
+                </button>
+                
+            </mat-form-field>
+        </div>
+    
+
+        <br>
+        <div class="button">
+            <button mat-button class="cancel" color="primary" >cancel</button>
+            <button mat-button class="logar" type="submit">Logar</button> 
+        </div>
+    </form>
+</div>
+  
